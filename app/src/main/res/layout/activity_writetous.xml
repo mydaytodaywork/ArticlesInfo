@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_writetous"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="40dp"
+    tools:context="in.ac.nitrkl.articlesinfo.writetous"
+    android:background="@drawable/menubackground">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Your Article"
+            android:textSize="30dp"
+            android:textColor="#1637c8"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:background="@drawable/myedittext"
+            android:lines="2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/category"
+            android:background="#FFFFFC"
+            android:entries="@array/category_array"
+            android:layout_marginTop="10dp">
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/branch"
+            android:background="#FFFFFC"
+            android:entries="@array/branch_array"
+            android:layout_marginTop="10dp">
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Article"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/article"
+            android:background="@drawable/myedittext"
+            android:lines="15"
+            android:gravity="top"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Useful Links"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/links"
+            android:background="@drawable/myedittext"
+            android:lines="5"
+            android:gravity="top"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:onClick="send_message"
+                    android:background="@drawable/mybutton"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reset"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/mybutton"
+                    android:textColor="#FFFFFF"
+                    android:onClick="reset_message"/>
+        </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ArticlesInfo</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="aboutushtml">
+            <![CDATA[
+
+            Welcome to <b><i> Articles Info </i></b>, your number one source for all kinds of articles. We’re dedicated to giving you the very best of articles.
+				Founded in 2016 by <b><i> Kamal Agrawal </i></b>, <b><i> Akash Saha </i></b>. <br/><br/>
+
+				How many times were you frustrated while looking out for a good collection of programming /algorithm/ interview questions? What did you expect and what did you get? This portal has been created to provide well written, well thought and well explained solutions for selected questions.<br/><br/>
+
+
+				We hope you enjoy our articles as much as we enjoy offering them to you. If you have any questions or comments, please don’t hesitate to contact us.
+				<br/><br/><br/>
+
+				Happy Reading!<br/>
+				Sincerely,<br/>
+				Kamal Agrawal, Akash Saha, Founder
+
+            ]]>
+    </string>
+
+    <string-array name="category_array">
+        <item> Knowledge </item>
+        <item> Interview Experience </item>
+        <item> General Knowledge </item>
+        <item> Sports </item>
+        <item> Products </item>
+        <item> Programs </item>
+    </string-array>
+
+    <string-array name="branch_array">
+        <item> Computer Science </item>
+        <item> Civil </item>
+        <item> Electrical </item>
+        <item> Electronics </item>
+        <item> Literature </item>
+        <item> Mechanical </item>
+        <item> Other </item>
+    </string-array>
+</resources>

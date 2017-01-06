@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contactus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="in.ac.nitrkl.articlesinfo.contactus"
+    android:background="@drawable/menubackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reach Us"
+        android:textSize="30dp"
+        android:textColor="#1637c8"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Subject:"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/subject"
+        android:background="@drawable/myedittext"
+        android:lines="2"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Message:"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lines="9"
+        android:background="@drawable/myedittext"
+        android:gravity="top"
+        android:id="@+id/message"/>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@drawable/mybutton"
+            android:textColor="#FFFFFF"
+            android:onClick="send_message"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/mybutton"
+            android:text="Reset"
+            android:layout_marginLeft="30dp"
+            android:onClick="reset_message"/>
+    </LinearLayout>
+
+</LinearLayout>

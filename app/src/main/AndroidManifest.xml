@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ac.nitrkl.articlesinfo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon96"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:label="Register">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".branchwise">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.recentarticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".categorywise">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.recentarticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".writetous">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.writetous" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".contactus">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.contactus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userprofile">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.userprofile" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ourrecentarticles">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.ourrecentarticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".brancharticles">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.brancharticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".categoryarticles">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.categoryarticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".complete_article">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.complete_article" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".featuredarticles">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.featuredarticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".searcharticles">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.searcharticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".publishedarticles">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.publishedarticles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aboutus">
+            <intent-filter>
+                <action android:name="in.ac.nitrkl.articlesinfo.aboutus" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

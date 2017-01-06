@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="in.ac.nitrkl.articlesinfo.register"
+    android:background="@drawable/menubackground">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:textColor="#1637c8"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="UserName"
+        android:id="@+id/username"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/name"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/email"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:hint="Confirm Password"
+        android:id="@+id/confirm_password"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone No."
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:id="@+id/phoneno"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="DOB"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:id="@+id/dob"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Sex"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:id="@+id/gender"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:background="@drawable/myedittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Profession"
+        android:padding="10dp"
+        android:id="@+id/profession"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Organization"
+        android:background="@drawable/myedittext"
+        android:padding="10dp"
+        android:id="@+id/organization"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:onClick="registerme"
+        android:text="Register"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton"/>
+
+
+
+</LinearLayout>
+</ScrollView>

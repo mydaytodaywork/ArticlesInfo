@@ -1,1 +1,11 @@
-# ArticlesInfo
+Article Info is a synced project based on website and android application. This project aims at enhancing the knowledge of the people by providing them articles of various categories and branches. It also contains articles on experiences and achievements of people from various fields which will definitely guide the users to face the challenges in similar fields. Articles on general knowledge and current affairs will keep the users updated with day to day events. 
+
+The website is responsive and is supported by all the browsers. Bootstrap framework is used for the designing the front-end of the website and the back-end is done in php. Android application is developed in Java using Android Studio. A few libraries like Volley is also used for achieving better performance. XAMPP server is used for testing the application and website.
+
+People can scroll through vast range of articles of their field of interest. They can browse through by featured articles, recent articles and can filter their search based on branch or category. Searching can also be done based on keywords related to the topic. Users can ask their queries and give their suggestions in the comment section of respective articles.
+
+Users can send us their feedback regarding how our work has helped them and suggest us for improvement if any. They can also mail us regarding any articles they would like to be published. They can send us articles they have produced or share their experiences with us which will be verified by our admin and if found relevant will be published on our site. 
+
+In the android application, users must login to avail the facility of reading the articles. Initially he must register himself and can publish the articles through the same account. He can even check his profile and all the articles that have been published by him.
+
+The admins have been classified into two types: Super Admin and admin. Super admin has the right to add or remove the admins. He can also update the notice board in the website to give specific information to the users. Admins have the right to confirm the articles sent by the users. They are also equipped with the task of replying to the responses and the feedbacks of the users. Admins can add new branch or category whenever required.

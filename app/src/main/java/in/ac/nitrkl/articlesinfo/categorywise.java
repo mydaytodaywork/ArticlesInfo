@@ -29,7 +29,7 @@ public class categorywise extends AppCompatActivity {
     String[] article_category;
     String[] article_counter;
     int[] categoryid;
-    final String url = "http://192.168.43.68/articleinfo/allcategory.php";
+    final String url = "https://datacompiled.000webhostapp.com/allcategory.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

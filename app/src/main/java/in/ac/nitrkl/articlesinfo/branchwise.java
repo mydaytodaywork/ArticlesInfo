@@ -30,7 +30,7 @@ public class branchwise extends AppCompatActivity {
     String[] article_counter;
     int[] branchid;
 
-    final String url = "http://192.168.43.68/articleinfo/allbranch.php";
+    final String url = "https://datacompiled.000webhostapp.com/allbranch.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

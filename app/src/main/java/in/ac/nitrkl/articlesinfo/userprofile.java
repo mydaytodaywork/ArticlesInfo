@@ -40,7 +40,7 @@ import javax.net.ssl.X509TrustManager;
 public class userprofile extends AppCompatActivity {
     SessionManagement session;
     String username, name, dob, gender, profession, organization, phoneno, email, joiningdate;
-    String url="http://192.168.43.68/articleinfo/getprofile.php?";
+    String url="https://datacompiled.000webhostapp.com/getprofile.php?";
     TextView tname,tdob,tgender,tprofession,torganization,tphoneno,temail,tjoiningdate;
 
     @Override

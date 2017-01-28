@@ -24,7 +24,7 @@ import java.util.Arrays;
 public class categoryarticles extends AppCompatActivity {
     ListView lv;
     int ids[];
-    String url = "http://192.168.43.68/articleinfo/fetcharticles.php?type=category&";
+    String url = "https://datacompiled.000webhostapp.com/fetcharticles.php?type=category&";
     parsejson pjson;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

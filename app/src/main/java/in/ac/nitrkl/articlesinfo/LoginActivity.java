@@ -117,7 +117,7 @@ public class LoginActivity extends AppCompatActivity {
         }
         else {
             final RequestQueue queue = Volley.newRequestQueue(this);
-            final String url = "https://192.168.43.68/articleinfo/login.php";
+            final String url = "https://datacompiled.000webhostapp.com/login.php";
             final StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {
                         @Override

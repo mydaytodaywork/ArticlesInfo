@@ -29,7 +29,7 @@ public class complete_article extends AppCompatActivity {
     String branch="",category="",topic="",longinfo="",author="",time="",link="",code_data="";
     String data[];
     TextView cbranch,ccategory,ctopic,clonginfo,cauthor,clink,ctime,ccodedata;
-    String url="http://192.168.43.68/articleinfo/completearticle.php?";
+    String url="https://datacompiled.000webhostapp.com/completearticle.php?";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

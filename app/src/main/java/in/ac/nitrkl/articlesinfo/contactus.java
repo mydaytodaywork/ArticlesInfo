@@ -60,7 +60,7 @@ public class contactus extends AppCompatActivity {
         }
         else {
             final RequestQueue queue = Volley.newRequestQueue(this);
-            final String url = "https://192.168.43.68/articleinfo/contactus.php";
+            final String url = "https://datacompiled.000webhostapp.com/contactus.php";
             final StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {
                         @Override

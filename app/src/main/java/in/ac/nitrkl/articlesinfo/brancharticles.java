@@ -23,7 +23,7 @@ import java.util.Arrays;
 
 public class brancharticles extends AppCompatActivity {
     ListView lv;
-    String url = "http://192.168.43.68/articleinfo/fetcharticles.php?type=branch&";
+    String url = "https://datacompiled.000webhostapp.com/fetcharticles.php?type=branch&";
     int ids[];
     parsejson pjson;
     @Override

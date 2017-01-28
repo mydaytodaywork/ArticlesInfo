@@ -85,7 +85,7 @@ public class register extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Passwords do not match.", Toast.LENGTH_SHORT).show();
         } else {
             final RequestQueue queue = Volley.newRequestQueue(this);
-            final String url = "https://192.168.43.68/articleinfo/register.php";
+            final String url = "https://datacompiled.000webhostapp.com/register.php";
             final StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                     new Response.Listener<String>() {
                         @Override

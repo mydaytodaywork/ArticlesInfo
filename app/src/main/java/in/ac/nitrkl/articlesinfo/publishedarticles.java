@@ -25,7 +25,7 @@ public class publishedarticles extends AppCompatActivity {
     ListView lv;
     int ids[];
     parsejson pjson;
-    String url = "http://192.168.43.68/articleinfo/searcharticles.php?";
+    String url = "https://datacompiled.000webhostapp.com/searcharticles.php?";
     SessionManagement session;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
